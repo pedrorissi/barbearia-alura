@@ -2,6 +2,12 @@
    background: #CCC;
    padding: 30px;
 }
+#banner{
+   width: 100%;
+}
+.titulo-centralizado{
+   text-align: center;
+}
 
 p{
    text-align: center;
@@ -9,6 +15,10 @@ p{
 
 #missao{
    color: #FF0000;
+}
+
+.titulo-principal{
+   padding-left: 20px;
 }
 
 ul{
@@ -28,8 +38,4 @@ ul{
 }
 .imagem-beneficios{
    width:50%;
-}
-
-h2{
-   text-align: center;
 }
