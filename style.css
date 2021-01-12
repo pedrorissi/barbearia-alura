@@ -1,5 +1,6 @@
-body{
+.principal{
    background: #CCC;
+   padding: 30px;
 }
 
 p{
@@ -8,4 +9,27 @@ p{
 
 #missao{
    color: #FF0000;
+}
+
+ul{
+   display: inline-block;
+   vertical-align: top;
+   width: 20%;
+   margin-right: 15%;
+}
+
+.itens{
+   font-style: italic;
+}
+
+.beneficios{
+   background: #FFF;
+   padding: 20px;
+}
+.imagem-beneficios{
+   width:50%;
+}
+
+h2{
+   text-align: center;
 }
