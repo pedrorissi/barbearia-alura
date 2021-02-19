@@ -14,6 +14,8 @@ header{
 }
 
 nav{
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
    position: absolute;
    top: 110px;
    right: 0;
@@ -30,13 +32,15 @@ nav a {
    font-weight: bold;
    font-size: 22px;
    text-decoration: none;
+   transition: color 1s ease-in-out;
 }
 
 nav a:hover{
-   color: #C78C19;
-   text-decoration: underline lightyellow;
-   transition: 1s;
+   color: #a26b00;
+   border-bottom: 2px solid #a26b00;
 }
+
+
 
 .produtos{
    width:940px;
@@ -196,4 +200,15 @@ tfoot td:hover{
 
 .imagem-beneficios {
   width: 50%;
+}
+
+.beneficios {
+   width: 960px;
+}
+
+.maps-iframe > iframe {
+   width: 100%;
+   display: block;
+   border-radius: 15px;
+   margin: 15px 0 15px 0;
 }
