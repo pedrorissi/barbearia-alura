@@ -1,5 +1,6 @@
 * {
-  font-size: 16px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .caixa{
@@ -9,7 +10,7 @@
 }
 
 header{
-   background: #BBB;
+   background: #888;
    padding: 20px 0;
 }
 
@@ -100,8 +101,7 @@ footer{
 }
 
 main {
-   width: 940px;
-   margin: 0 auto;
+
 }
 
 form{
@@ -184,6 +184,14 @@ tfoot td:hover{
   font-size: 2em;
   /*em é a medidade proporcional para os pixels, sendo sempre o dobro da fonte padrão*/
   margin: 0 0 1em;
+  clear: left;
+}
+
+.principal {
+   padding: 3em;
+   background: #FEFEFE;
+   width: 940px;
+   margin: 0 auto;
 }
 
 .principal p {
@@ -198,17 +206,68 @@ tfoot td:hover{
   font-style: italic;
 }
 
-.imagem-beneficios {
-  width: 50%;
+.utensilios {
+   width: 120px;
+   float: left;
+   margin: 0 20px 20px 0;
 }
 
 .beneficios {
-   width: 960px;
+   width: 100%;
+   padding: 3em 0;
+   background: #888;
+
 }
 
-.maps-iframe > iframe {
+.conteudo-beneficios {
+   width: 640px;
+   margin: 0 auto;
+}
+
+.beneficios-lista {
+   width: 40%;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.itens {
+   line-height: 1.6;
+}
+
+.itens:before {
+   content: "★";
+}
+
+.itens:first-child {
+   font-weight: bold;
+}
+
+.imagem-beneficios {
+   width: 60%;
+}
+
+.mapa {
+   padding: 3em 0;
    width: 100%;
-   display: block;
+   margin: 0 auto;
+   background: linear-gradient(#FFF, #888);
+}
+
+.mapa p {
+   margin: 0 0 2em;
+   text-align: center;
+}
+
+.mapa-conteudo {
+   width: 940px;
+   margin: 0 auto;
+}
+
+.mapa-conteudo > iframe {
    border-radius: 15px;
-   margin: 15px 0 15px 0;
+}
+
+.video {
+   width: 560px;
+   margin: 2em auto;
 }
