@@ -183,6 +183,7 @@ tfoot td:hover{
   /*em é a medidade proporcional para os pixels, sendo sempre o dobro da fonte padrão*/
   margin: 0 0 1em;
   clear: left;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .principal {
@@ -205,7 +206,7 @@ tfoot td:hover{
 }
 
 .utensilios {
-   width: 120px;
+   width: calc(40% - 26px);
    float: left;
    margin: 0 20px 20px 0;
 }
@@ -218,7 +219,7 @@ tfoot td:hover{
 }
 
 .conteudo-beneficios {
-   width: 640px;
+   width: 750px;
    margin: 0 auto;
 }
 
@@ -241,7 +242,16 @@ tfoot td:hover{
 }
 
 .imagem-beneficios {
-   width: 60%;
+   width: 400px;
+   opacity: 1;
+   transition: 400ms;
+
+}
+
+.imagem-beneficios:hover {
+   opacity: 0.7;
+   box-shadow: 10px 10px 0 0 #000;
+   margin: 0 3px 3px 0;
 }
 
 .mapa {
