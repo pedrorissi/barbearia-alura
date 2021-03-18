@@ -22,81 +22,84 @@
 		</div>
 	</header>
 	<main>
-		<form>
-			<label for="nome-sobrenome">Nome e Sobrenome</label>
-			<input type="text" id="nome-sobrenome" class="input-padrao" required placeholder="Seu nome" autofocus>
 
-			<label for="email">Email</label>
-			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+		<div class="caixa">
+			<form>
+				<label for="nome-sobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nome-sobrenome" class="input-padrao" required placeholder="Seu nome" autofocus>
 
-			<label for="telefone">Telefone</label>
-			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
 
-			<textarea rows="15" cols="80" class="input-padrao" required placeholder="Escreva aqui a sua mensagem..."></textarea>
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<textarea rows="15" cols="80" class="input-padrao" required placeholder="Escreva aqui a sua mensagem..."></textarea>
 
 
-			<fieldset>
-				<legend>Como você prefere o nosso contato?</legend>
-				<label for="radio-email">
-					<input type="radio" name="contato" id="radio-email" checked>
-					Email
+				<fieldset>
+					<legend>Como você prefere o nosso contato?</legend>
+					<label for="radio-email">
+						<input type="radio" name="contato" id="radio-email" checked>
+						Email
+					</label>
+
+					<label for="radio-telefone">
+						<input type="radio" name="contato" id="radio-telefone">
+						Telefone
+					</label>
+
+					<label for="radio-whatsapp">
+						<input type="radio" name="contato" id="radio-whatsapp">
+						Whatsapp
+					</label>
+				</fieldset>
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option selected></option>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+				<label class="checkbox">
+					<input type="checkbox">
+					Gostaria de receber nossas novidades por email?
 				</label>
 
-				<label for="radio-telefone">
-					<input type="radio" name="contato" id="radio-telefone">
-					Telefone
-				</label>
+				<input id="enviar" type="submit" value="Enviar" class="input-padrao">
 
-				<label for="radio-whatsapp">
-					<input type="radio" name="contato" id="radio-whatsapp">
-					Whatsapp
-				</label>
-			</fieldset>
-			<fieldset>
-				<legend>Qual horário prefere ser atendido?</legend>
-				<select>
-					<option selected></option>
-					<option>Manhã</option>
-					<option>Tarde</option>
-					<option>Noite</option>
-				</select>
-			</fieldset>
-			<label class="checkbox">
-				<input type="checkbox">
-				Gostaria de receber nossas novidades por email?
-			</label>
+			</form>
 
-			<input id="enviar" type="submit" value="Enviar" class="input-padrao">
-
-		</form>
-
-		<table>
-			<thead>
-				<tr>
-					<th>Dia</th>
-					<th>Horário</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Segunda</td>
-					<td>8h ~ 20h</td>
-				</tr>
-				<tr>
-					<td>Quarta</td>
-					<td>8h ~ 20h</td>
-				</tr>
-				<tr>
-					<td>Sexta</td>
-					<td>8h ~ 20h</td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr>
-					<td colspan="2">Te encontro lá!</td>
-				</tr>
-			</tfoot>
-		</table>
+			<table>
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="2">Te encontro lá!</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
 	</main>
 	<footer>
 		<img src="img/logo-branco.png" alt="Logo Branco">
